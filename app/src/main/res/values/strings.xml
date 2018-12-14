@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Погода в Москве</string>
+    <string name="menu_item_refresh">Обновить</string>
+    <string name="temp">Температура</string>
+    <string name="feels">Ощущается как</string>
+    <string name="humidity">Влажность</string>
+    <string name="temp_template">%s°C</string>
+    <string name="humidity_template">%s%%</string>
+</resources>
