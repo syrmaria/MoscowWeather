@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="margin">16dp</dimen>
+    <dimen name="margin">24dp</dimen>
+    <dimen name="listMargin">12dp</dimen>
+    <dimen name="iconSize">100dp</dimen>
+    <dimen name="defaultSize">0dp</dimen>
 </resources>

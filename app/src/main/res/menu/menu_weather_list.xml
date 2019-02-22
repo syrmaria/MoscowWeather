@@ -2,6 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+        android:id="@+id/choose_location_menu_item"
+        android:title="@string/menu_item_choose_location"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        app:showAsAction="ifRoom|withText"/>
+    <item
         android:id="@+id/refresh_menu_item"
         android:title="@string/menu_item_refresh"
         android:icon="@android:drawable/ic_menu_rotate"

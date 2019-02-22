@@ -6,8 +6,8 @@ import android.support.annotation.NonNull;
 
 @Entity
 class Weather {
-    @PrimaryKey
-    @NonNull
+    @PrimaryKey(autoGenerate = true)
+    private int id;
     private String date;
     private String temp;
     private String feels;
@@ -15,12 +15,11 @@ class Weather {
     private String condition;
     private String humidity;
 
-    @NonNull
     public String getDate() {
         return date;
     }
 
-    public void setDate(@NonNull String date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
@@ -64,4 +63,11 @@ class Weather {
         this.icon = icon;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }

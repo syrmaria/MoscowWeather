@@ -7,14 +7,19 @@
     <TextView
         android:id="@+id/details_date_text"
         android:layout_width="wrap_content"
-        android:gravity="center"
-        android:layout_height="wrap_content" />
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:id="@+id/icon"
+        android:layout_margin="@dimen/margin"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/iconSize"
+        android:layout_height="@dimen/iconSize" />
 
     <LinearLayout
         android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/margin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     <LinearLayout
@@ -38,7 +43,7 @@
     </LinearLayout>
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/defaultSize"
         android:layout_weight="1"
         android:layout_height="match_parent">
 
